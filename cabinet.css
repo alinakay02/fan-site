@@ -1,0 +1,21 @@
+.window {
+    font-size: 45px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.but1 {
+    color: white;
+    background-color: #7e3a1f;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.login {
+    margin: 40px;
+    color: #5c2814;
+}
+.main_app {
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,66 @@
+.users, .to_discus, .news {
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    margin: auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: white;
+    font-size: 20px;
+}
+.all_users, .delete_user, .all_discuss, .delete_discuss, .all_news, .delete_news {
+    width: 30vw;
+    margin-left: 20px;
+}
+.user_wrap, .discus_wrap, .news_wrap {
+    border-bottom: 1px solid #2c190a;
+}
+.logins{
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.all, .delete, .add_title {
+    font-size: 30px;
+    text-shadow: 1px 1px 2px #ffc89d;
+    color: #2c190a;
+}
+.add_news {
+    width: 700px;
+    margin: auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: white;
+    font-size: 20px;
+    padding-left: 60px;
+}
+button {
+    font-size: 20px;
+    color: #ffd7a6;
+    background-color: #7e3a1f;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.window {
+    font-size: 45px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.but1 {
+    color: white;
+    background-color: #7e3a1f;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.login {
+    margin: 40px;
+    color: #5c2814;
+}
+.publish {
+    margin-top: 10px;
+}
+.main_app {
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,136 @@
+.season_about {
+    font-size: 20px;
+    color: white;
+    padding: 25px 60px 25px 60px;
+}
+
+.have {
+    display: none;
+}
+
+.season_wrapper {
+    display: flex;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    width: 900px;
+    margin: auto;
+}
+.about_seasons {
+    padding: 15px;
+    text-align: justify;
+}
+.num {
+    border-bottom: 1px solid #9c4e2f;
+}
+.season_name {
+    width: 900px;
+    font-size: 25px;
+    text-shadow: 1px 1px 3px #2c190a;
+}
+.new_color_text {
+    color: #2c190a;
+    text-shadow: 1px 1px 3px #ffc583;
+    font-size: 30px;
+}
+.show_about {
+    width: 100px;
+    font-size: 20px;
+}
+button {
+    width: 60px;
+    height: 30px;
+    background-color: #fdc482;
+    border: none;
+    color: #2c190a;
+}
+.container {
+    max-width: 700px;
+    position: relative;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+/* Кнопки след. и пред. */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.2s ease;
+    border-radius: 0 8px 8px 0;
+}
+/* Затухающая анимация */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 3px 40px 0;
+    background-color: #ffc583;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #9b4e2f;
+}
+
+.dots {
+    text-align: center;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .7}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .7}
+    to {opacity: 1}
+}
+
+.next {
+    right: 0;
+    border-radius: 8px 0 0 8px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.mySlides {
+    display: none;
+}
+
+img{
+    width: 700px;
+}
+.main_app {
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+.about_serial {
+    font-size: 24px;
+    color: white;
+    padding: 20px 80px 20px 80px;
+    text-align: justify;
+}
+.serial {
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,78 @@
+.discuss_wrapper {
+    width: 80vw;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: white;
+    padding: 8px 50px 30px 50px;
+    border: 1px solid #d1a158;
+    border-radius: 10px;
+    background-color: #de8d4e;
+}
+.dis_txt, .discuss_text {
+    margin: 2px;
+}
+.comments {
+    position: relative;
+    padding-left: 20px;
+}
+.textarea_sv {
+    resize: none;
+    height: 50px;
+    width: 600px;
+    margin-top: 20px;
+}
+.discuss_name {
+    font-size: 35px;
+    font-style: oblique;
+    color: rgb(201, 35, 35);
+    text-align: center;
+}
+.discuss_to_show {
+    font-size: 24px;
+}
+.not_show {
+    display: none;
+}
+.user_name {
+    color: black;
+    margin: 2px;
+    font-size: 18px;
+}
+button {
+    border: none;
+    background-color: #dc8c4e;
+    color: white;
+    padding: 0;
+    font-size: 20px;
+}
+.add_to_discuss {
+    font-size: 15px;
+    padding-top: 10px;
+    margin: 3px;
+}
+.add_new_discuss {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: white;
+    width: 900px;
+    margin: auto;
+}
+.add_new_theme {
+    background-color: #bc743c;
+}
+.new_theme, .dis_content {
+    margin: 3px;
+}
+.all_dis {
+    color: rgb(95, 44, 3);
+    text-align: center;
+    font-size: 25px;
+}
+.main_app {
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,22 @@
+.for_form {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 2px #7e3a1f;
+}
+.but1, .but2 {
+    color: white;
+    background-color: #7e3a1f;
+    font-size: 20px;
+    margin-top: 20px;
+}
+input {
+    font-size: 20px;
+}
+.lp {
+    margin: 10px 0 10px 0;
+}
